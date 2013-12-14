@@ -1,0 +1,64 @@
+/* 
+  Document   : hbg.css
+  Created on : 2013-dec-12, 15:27:19
+  Author     : Kristian Erendi Reptilo.se
+  Description:
+*/
+body {
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 9px;
+  line-height: 16px;
+}
+.alert.notice {margin-bottom: 20px;}
+.proc-tabs{margin-top: 20px;}
+.ui-tabs .ui-tabs-nav, .header-social, .ui-dialog-titlebar {
+  background: url("/wp-content/themes/Avada/hbg/img/bg.svg");
+  background: -moz-linear-gradient(top, #93b1cc 0%, #566d8a 100%) !important;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #93B1CC), color-stop(100%, #566D8A)) !important;
+  background: -webkit-linear-gradient(top, #93B1CC 0%, #566D8A 100%) !important;
+  background: -o-linear-gradient(top, #93b1cc 0%, #566d8a 100%) !important;
+  background: -ms-linear-gradient(top, #93b1cc 0%, #566d8a 100%) !important;
+  background: linear-gradient(top, #93b1cc 0%, #566d8a 100%) !important;
+  background-color: #566D8A;
+}
+
+.page-title h1 {
+  color: #333;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 26px !important;
+  font-weight: bold;
+  height: 26px;
+  line-height: 1em !important;
+  margin-bottom: 6px;  
+}
+
+p, .ui-tabs-panel P{
+  font-size: 12px;
+  line-height: 1.25;
+  margin: 0 0 18px;
+  color: #000;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+}
+
+.ui-tabs-panel P
+
+.button.green {
+  color: #54770F !important;
+  background-image: linear-gradient(top, #D1E990 0%, #AAD75D 100%);
+  background-image: -o-linear-gradient(top, #D1E990 0%, #AAD75D 100%);
+  background-image: -moz-linear-gradient(top, #D1E990 0%, #AAD75D 100%);
+  background-image: -webkit-linear-gradient(top, #D1E990 0%, #AAD75D 100%);
+  background-image: -ms-linear-gradient(top, #D1E990 0%, #AAD75D 100%);
+  background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, #D1E990), color-stop(1, #AAD75D) );
+  border: 1px solid #9DBA60;
+}
+
+.ui-widget-header {
+  color: #fff;
+  font-weight: normal;
+}
